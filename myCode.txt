@@ -1,4 +1,4 @@
-local x = "5";
+local x = '5';
 global l = 5;
 x = 4;
 local y = 44;

@@ -12,12 +12,10 @@ export class LexicalAnalysis {
 
     static async toCreateTokens() {
         const AllLinesArray = await this.toDivideLines();
-
+        console.log(AllLinesArray);
         for (let i = 0; i < AllLinesArray.length; i++) {
            await SyntaxAnalysis.decisionOfTokens(AllLinesArray[i], i + 1)
         }
-        
     }
-    
 }
 

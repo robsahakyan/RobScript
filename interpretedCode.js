@@ -1,4 +1,4 @@
-let x = "5";
-let l = 5;
+let x = '5';
+l = 5;
 x = 4;
-let y = 44, b = 2;
+let y = 44;
